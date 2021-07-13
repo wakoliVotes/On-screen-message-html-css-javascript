@@ -1,50 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Print I Love You On Screen</title>
-</head>
-<style>
-    body
-    {
-        text-align: center;   
-        background-color: whitesmoke;
-        background-image: url("love.png");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    input
-    {
-        height: 150px;
-        width: 360px;
-        text-align: center;
-        color: red;
-        font-size: xx-large;
-        font-family: seguoe ui;        
-    }
-    button
-    {
-        color: red;
-        width: 200px;
-        height: 40px;
-        font-weight: bolder;
-    }
-    h1, h3, h2
-    {
-        color: white;
-    }
-    img
-    {
-        height: 200px;
-        width: 200px;
-        border-radius: 90px;
-    }
-</style>
-<body>
     <!--This program is for printing an Love You message on the screen for a loved one-->
     <!--This process involves HTML and JavaScript programming Language-->
     <!--The main aspects used in this are the JavaScript setTimeout() statement-->
@@ -59,7 +12,7 @@
     <script>
         function timedLoveMessage(){
         var b = document.getElementById("lov");
-        setTimeout(function(){b.value = "From Me, I Say:"}, 0); // The time is set to 0 seconds, i.e., 0 milliseconds
+        setTimeout(function(){b.value = "From Me, I Say:"}, 0); 	// The time is set to 0 seconds, i.e., 0 milliseconds
         setTimeout(function(){b.value = "I"}, 3000);                    // The time is set to 3 seconds, i.e., 3000 milliseconds
         setTimeout(function(){b.value = "Love"}, 6000);                 // The time is set to 6 seconds, i.e., 6000 milliseconds
         setTimeout(function() {b.value = "You"}, 9000);                 // The time is set to 9 seconds, i.e., 9000 milliseconds
@@ -70,11 +23,3 @@
         setTimeout(function() {b.value = "My"}, 24000);                 // The time is set to 24 seconds, i.e., 24000 milliseconds
         setTimeout(function() {b.value = "Beautiful Heart"}, 27000);    // The time is set to 27 seconds, i.e., 27000 milliseconds
         }
-    </script>
-    <br>
-    <h2>Here is a flower for you;</h2>
-    <br>
-    <img src="flowers.jpg" alt="">
-    <h1>Good Bye!</h1>
-</body>
-</html>

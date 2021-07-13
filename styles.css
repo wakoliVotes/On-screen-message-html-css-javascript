@@ -1,0 +1,36 @@
+    body
+    {
+        text-align: center;   
+        background-color: whitesmoke;
+        background-image: url("love.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    input
+    {
+        height: 150px;
+        width: 360px;
+        text-align: center;
+        color: red;
+        font-size: xx-large;
+        font-family: seguoe ui;        
+    }
+    button
+    {
+        color: red;
+        width: 200px;
+        height: 40px;
+        font-weight: bolder;
+    }
+    h1, h3, h2
+    {
+        color: white;
+    }
+    img
+    {
+        height: 200px;
+        width: 200px;
+        border-radius: 90p
+}
