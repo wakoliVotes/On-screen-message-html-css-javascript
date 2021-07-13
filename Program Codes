@@ -67,8 +67,8 @@
         setTimeout(function() {b.value = "The"}, 15000);                // The time is set to 15 seconds, i.e., 15000 milliseconds
         setTimeout(function() {b.value = "Bottom"}, 18000);             // The time is set to 18 seconds, i.e., 18000 milliseconds
         setTimeout(function() {b.value = "Of"}, 21000);                 // The time is set to 21 seconds, i.e., 21000 milliseconds
-        setTimeout(function() {b.value = "My"}, 24000);                 // The time is set to 3 seconds, i.e., 3000 milliseconds
-        setTimeout(function() {b.value = "Beautiful Heart"}, 27000);    // The time is set to 3 seconds, i.e., 3000 milliseconds
+        setTimeout(function() {b.value = "My"}, 24000);                 // The time is set to 24 seconds, i.e., 24000 milliseconds
+        setTimeout(function() {b.value = "Beautiful Heart"}, 27000);    // The time is set to 27 seconds, i.e., 27000 milliseconds
         }
     </script>
     <br>
